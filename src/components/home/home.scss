@@ -1,0 +1,29 @@
+.home {
+  width: 100vw;
+  height: 70vh;
+  background: rgb(110, 78, 78);
+  display: flex;
+  justify-content: flex-start;
+  min-height: 50px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    h1 {
+      color: white;
+      // margin: 200px;
+      padding: 20px;
+    }
+    h2 {
+      padding: 20px;
+      color: white;
+    }
+    p {
+      color: white;
+      padding: 20px;
+    }
+  }
+}

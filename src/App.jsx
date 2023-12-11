@@ -2,14 +2,17 @@ import "./App.css";
 import "./assets/css/main.css";
 import "./assets/css/noscript.css";
 import "./assets/css/fontawesome-all.min.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+
+import Navbar from "./components/navbar/Navbar";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </>
   );
 }
