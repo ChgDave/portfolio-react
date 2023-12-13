@@ -4,7 +4,6 @@
   background: rgb(110, 78, 78);
   display: flex;
   justify-content: flex-start;
-  min-height: 50px;
 }
 
 .title {
@@ -27,20 +26,35 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
 
-  div {
-    border: 1px black solid;
-    height: 50vh;
-    width: 30vw;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.project-card {
+  border: 1px black solid;
+  height: 50vh;
+  width: 30vw;
+  margin: 20px;
+  position: relative;
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+}
+
+.github {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .github {
+  opacity: 1;
+}
+
+.project-card:hover img {
+  opacity: 0.3;
 }
