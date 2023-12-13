@@ -6,10 +6,14 @@ export default function Footer() {
   return (
     <div className="footer">
       <div>
-        <FaGithub style={{ color: "lightblue" }} size={40} />
+        <a href="https://github.com/ChgDave">
+          <FaGithub style={{ color: "lightblue" }} size={40} />
+        </a>
       </div>
       <div>
-        <FaLinkedin style={{ color: "lightblue" }} size={40} />
+        <a href="https://www.linkedin.com/in/hailong-zhou/">
+          <FaLinkedin style={{ color: "lightblue" }} size={40} />
+        </a>
       </div>
     </div>
   );

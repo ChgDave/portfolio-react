@@ -4,7 +4,10 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div>
-        <h2>Hailong Zhou</h2>
+        <h2>
+          Hailong Zhou <br />
+          Full Stack Developer
+        </h2>
       </div>
       <div>
         <Link to="/">Home</Link>
