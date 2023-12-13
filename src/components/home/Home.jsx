@@ -1,13 +1,13 @@
 // import "../assets/css/main.css";
 // import "../assets/css/noscript.css";
 // import "../assets/css/fontawesome-all.min.css";
-import "./home.scss";
+import style from "./Home.module.scss";
 import { CgProfile } from "react-icons/cg";
 
 export default function Home() {
   return (
-    <div className="home">
-      <div className="section">
+    <div className={style.body}>
+      <div>
         <CgProfile size={60} style={{ color: "lightblue" }} />
         <h1>About me</h1>
       </div>

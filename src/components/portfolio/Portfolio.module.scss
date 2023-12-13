@@ -1,0 +1,46 @@
+.body {
+  width: 100vw;
+  min-height: 70vh;
+  background: rgb(110, 78, 78);
+  display: flex;
+  justify-content: flex-start;
+  min-height: 50px;
+}
+
+.title {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+  h1 {
+    color: white;
+    // margin: 200px;
+    padding: 20px;
+  }
+}
+
+.project-container {
+  // max-width: 100%;
+  // margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  div {
+    border: 1px black solid;
+    height: 50vh;
+    width: 30vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
