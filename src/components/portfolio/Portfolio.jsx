@@ -29,12 +29,15 @@ export default function Portfolio() {
         >
           <img src={DnD1} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/DnD-Character-Generator"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>D&D Character Generator</h4>
+              <a
+                href="https://github.com/ChgDave/DnD-Character-Generator"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>
+            </div>
           )}
         </div>
         <div
@@ -44,12 +47,15 @@ export default function Portfolio() {
         >
           <img src={ArtBlockBreaker} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/art-block-breaker"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>Art Block Breaker</h4>
+              <a
+                href="https://github.com/ChgDave/art-block-breaker"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>
+            </div>
           )}
         </div>
         <div
@@ -59,12 +65,15 @@ export default function Portfolio() {
         >
           <img src={PigGame} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/Pig-Game"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>Pig Game</h4>
+              <a
+                href="https://github.com/ChgDave/Pig-Game"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>{" "}
+            </div>
           )}
         </div>
         <div
@@ -74,12 +83,15 @@ export default function Portfolio() {
         >
           <img src={TechBlog} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/CMS-Blog"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>The Tech Blog</h4>
+              <a
+                href="https://github.com/ChgDave/CMS-Blog"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>
+            </div>
           )}
         </div>
         <div
@@ -89,12 +101,15 @@ export default function Portfolio() {
         >
           <img src={WeatherBoard} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/Weather-Dashboard"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>Weather Dash Board</h4>
+              <a
+                href="https://github.com/ChgDave/Weather-Dashboard"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>
+            </div>
           )}
         </div>
         <div
@@ -104,12 +119,15 @@ export default function Portfolio() {
         >
           <img src={WorkDayScheduler} alt="Project Image" />
           {isHovered && (
-            <a
-              href="https://github.com/ChgDave/Work-Day-Scheduler"
-              className={style.github}
-            >
-              <FaGithub style={{ color: "lightblue" }} size={40} />
-            </a>
+            <div className={style["project-info"]}>
+              <h4>Work Day Scheduler</h4>
+              <a
+                href="https://github.com/ChgDave/Work-Day-Scheduler"
+                className={style.github}
+              >
+                <FaGithub style={{ color: "lightblue" }} size={40} />
+              </a>
+            </div>
           )}
         </div>
       </div>
