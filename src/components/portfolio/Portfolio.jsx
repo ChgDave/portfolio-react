@@ -19,7 +19,7 @@ export default function Portfolio() {
   return (
     <div className={style.body}>
       <div className={style.title}>
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
       </div>
       <div className={style["project-container"]}>
         <div
