@@ -74,7 +74,7 @@ This project is licensed under MIT License
 
 ## Github Repo
 
-https://github.com/ChgDave/CMS-Blog
+https://github.com/ChgDave/portfolio-react
 
 ## Deployed link on Netlify
 
