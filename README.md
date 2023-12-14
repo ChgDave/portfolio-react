@@ -78,7 +78,7 @@ https://github.com/ChgDave/CMS-Blog
 
 ## Deployed link on Netlify
 
-https://blogems-a6ce292e1cff.herokuapp.com/
+https://earnest-alpaca-acd763.netlify.app/
 
 ## Questions
 
